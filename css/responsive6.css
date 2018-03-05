@@ -1,0 +1,187 @@
+.header__menu {
+  display: none;
+}
+
+/*********************************************************BREAKPOINT (mobile phone) ********************************************/
+
+@media screen and (max-width:485px){
+	
+.introduction h3{
+	display: none;
+	text-align: center;
+}
+
+.introduction p{
+	margin: 0;
+}
+
+.job{
+	/* display: block; */
+	text-align: right;
+	font-size: 0.6em;
+	width: 100%;
+}
+
+.logo{
+	order: 0;
+	width: 20%;
+}
+
+#long_intro{
+	display: none;
+}
+
+.name{
+	float: right;
+	/* font-size: 0.8em; */
+	width: 50%;
+}
+
+.letterhead{
+	display: none;
+	order: -10;
+	width: 100%;
+}
+
+.heading{
+	order: -10;
+	width: 100%;
+}
+
+.picture{
+
+	order: -5;
+	width: 100%;
+}
+	
+.profile_pic{
+	display: none;
+	/* order: -1; */
+	padding: 2%;
+	max-width : 80%;
+}
+
+} 
+
+/*********************************************************BREAKPOINT ( tablet) ********************************************/
+
+/* TODO: Display graphic for Pixel Art Maker project */
+
+/* first breakpoint at about 500px (mobile phone -> tablet) */
+
+@media screen and (min-width:486px) and (max-width:702px){
+.all_projects{
+	display: block;
+	/* float: right; */
+	order: 20;
+	width: 100%;
+}
+
+
+.letterhead_allProjects{
+	/* display: inline; */
+	/* height: 150px; */
+	margin-left: auto;
+	margin-right: auto;
+	order: -2;
+	width: 50%;
+}
+
+.heading{
+	display: none;
+	order: -10;
+	width: 100%;
+}
+
+
+.job{
+	/* display: block; */
+	text-align: right;
+	font-size: 0.6em;
+	width: 100%;
+}
+
+.logo{
+	order: 0;
+	width: 30%;
+}
+
+.name{
+	float: right;
+	/* font-size: 0.8em; */
+	width: 50%;
+}
+
+.picture{
+	background-color: green;	
+	display: block;
+	order: -6;	
+	width:50%;
+}
+
+}
+
+/*********************************************************BREAKPOINT ( laptop) ********************************************/
+
+/* TODO: Overcome difficulties with displaying elements in larger viewports */
+/* TODO: Add styling to match rubric .pdf */
+
+	
+
+@media screen and (min-width: 702px){
+
+
+.all_projects{
+	/* display: block; */
+	order: 40;
+	width: 5%;
+}
+
+.job{
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.name{
+	/* float: right; */
+	/* font-size: 3em; */
+	order: 37;
+	width: 5%;
+}
+
+.letterhead_allProjects{
+	border: brown dashed;
+	display: none;
+	height: 150px;
+	order: -2;
+	width: 70%;
+}
+
+.heading{
+	/* display: none; */
+	/* display: left; */
+	order: -10;
+	width: 80%;
+}
+
+.picture{
+	/* display: none; */
+	/* border: red dashed; */
+	/* display: none; */
+	height: 100px;
+	/* order: 13; */
+	font-size: 0.5em;
+	width: 80%;
+}
+
+.profile_pic{
+	/* display: none; */
+	width: 45%;
+	order: 35;
+}
+
+.projectShirts{
+	order: 36;
+}
+
+}
