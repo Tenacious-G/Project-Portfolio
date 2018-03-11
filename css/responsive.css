@@ -1,0 +1,288 @@
+.header__menu {
+  display: none;
+}
+
+/*********************************************************BREAKPOINT (mobile phone) ********************************************/
+
+@media screen and (max-width:485px){
+	
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+/*		HEADER		*/
+
+.heading{
+	order: 1;
+	width: 100%;
+}
+
+.job{
+	text-align: right;
+	font-size: 0.6em;
+	width: 100%;
+}
+
+.logo{
+	order: 0;
+	width: 20%;
+}
+
+.name{
+	text-align: right;
+	width: 100%;
+}
+
+.titles{
+	width: 100%;
+}
+
+
+/*		PROJECTS	*/
+
+.all-projects{
+	order: 3;
+	width: 100%;
+}
+
+/*		PROFILE		*/	
+
+.introduction h3{
+	display: none;
+	text-align: center;
+}
+
+.introduction p{
+	margin: 0;
+}
+
+.long-intro{
+	display: none;
+}
+
+.profile{
+	order: 2;
+	width: 100%;
+}
+	
+.profile-pic{
+	display: none;
+	padding: 2%;
+	max-width : 80%;
+}
+
+.letterhead{
+	display: none;
+	width: 100%;
+}
+
+/*		COMBINED	*/
+
+.combined{
+	display: none;
+}
+
+
+} 
+
+/*********************************************************BREAKPOINT ( tablet) ********************************************/
+
+/* TODO: Display graphic for Pixel Art Maker project */
+
+/* first breakpoint at about 500px (mobile phone -> tablet) */
+
+@media screen and (min-width:486px) and (max-width:702px){
+	.combined{
+		order: 2;
+		width: 50%;
+	}
+	
+/*		HEADER		*/
+
+.heading{
+	display: none;
+	height: 80px;
+	order: 2;
+	width: 50%;
+}
+
+.job{
+	text-align: right;
+	font-size: 0.6em;
+	width: 100%;
+}
+
+.name{
+	text-align: right;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+.titles{
+	width: 100%;
+}
+
+/*		PROJECTS	*/
+
+.all-projects{
+	display: none;
+	order: 3;
+	width: 50%;
+}
+
+.all-projects_combined h3{
+	color: #7d97ad; /*light-grey*/
+}
+
+.logo{
+	order: 0;
+	width: 30%;
+}
+
+/*		PROFILE		*/
+
+.profile{
+	background-color: #02b3e4; /*udacity blue*/
+	margin: 2%;
+	order: 1;	
+	width:46%;
+}
+
+}
+
+/*********************************************************BREAKPOINT ( laptop) ********************************************/
+
+@media screen and (min-width: 702px){
+
+.container{
+	margin: 2% auto;
+	width: 96%;
+}
+
+/* 		HEADER	 */
+
+.horiz-border{
+	    border-width: 5px;
+}
+
+.job{
+	text-align: right;
+	font-size: 0.6em;
+	width: 100%;
+}
+
+
+.name{
+	text-align: right;
+	font-size: 0.9em;
+	width: 100%;
+}
+
+.titles{
+	width: 100%;
+}
+
+.logo{
+	order: 0;
+	width: 10%;
+}
+
+.heading{
+	order: 1;
+	width: 100%;
+}
+
+.titles{
+	display: inline;
+}
+
+/* 		PROJECTS	 */
+
+.all-projects{
+	display: flex;
+	justify-content: space-around;
+	order: 3;
+	width: 100%;
+}
+
+.all-projects h3{
+	color: #7d97ad; /*light-grey*/
+	display: block;
+	width: 100%;
+}
+
+.image-link_full{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.image-link_short{
+	display: none;
+}
+	
+.project-icon{
+	order: 36;
+	width: 30%;
+}
+
+.project-name{
+	color: #2d3c49; /*dark-grey*/
+	display: block;
+	font-weight: 2000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.project-shirts{
+	order: 36;
+	width: 30%;
+}
+
+.project-tiger{
+	order: 36;
+	width: 30%;
+}
+
+/* 		PROFILE	 */
+
+.fabric{
+	display: block;
+}
+
+
+.introduction{
+	color: black;
+	font-size: 0.5em;
+	font-weight: 50;
+    text-align: center;
+}
+.profile{
+	background-color: #02b3e4; /*udacity blue*/
+	order: 2;
+	font-size: 1.5em;
+	width: 100%;	
+	position: relative;
+    text-align: center;
+}
+
+.profile-pic{
+	display: none;
+	max-width: 80%;
+	order: 35;
+}
+
+/* 		COMBINED	 */
+
+.combined{
+	display: none;
+}
+
+
+
+
+
+
+
+}

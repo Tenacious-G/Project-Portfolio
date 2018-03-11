@@ -1,0 +1,156 @@
+
+
+body, html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5{
+  margin: 0; 
+}
+
+header, nav, footer, section, article, div{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* catch all to prevent images overflowing their containers */
+img, embed,object, video{
+	max-width: 100%;
+	height: auto; /*keep images in original proportions*/
+}
+
+/* minimum sizes for tap targets */
+
+.image-link{
+	min-width: 54px;
+	min-height: 54px;
+	margin: 32px;
+}
+
+.container{
+	align-content: flex-start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+/*********************************************HEADER*********************************************************************************/
+.header .header_contents{
+	width: 100%;
+}
+
+.logo{
+	min-height: 54px;
+	min-width: 54px;
+}
+
+.name{
+	text-align: right;
+}
+
+.titles{
+	display: inline-block;
+	width: 75%;
+}
+
+
+
+/*********************************************BODY - ARTICLE *********************************************************************************/
+
+.introduction{
+	margin: 0;
+}
+
+/********************************************BODY - PROJECTS *********************************************************************************/
+
+h4{
+	display: none;	
+}
+
+
+.all-projects{
+	display: flex;
+	flex-wrap: wrap; /* without this line, each project is shown in a row horizontally. */
+	width: 95%;
+}
+
+.all-projects h3{
+	display: none;
+}
+
+.image-link_full{
+	/*	only show full web link on large viewports	*/
+	display: none;
+}
+
+.project-tiger{
+	order: 2;
+}
+.project-icon{
+	order: 1;
+}
+
+
+.project-name{
+	/*	only show project name on large viewports	*/
+	display: none;
+}
+
+.project-shirts{
+	order: 3;
+}
+.project-pic{
+	padding: 2%;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.unsplash-logo{
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding: 4px 6px;
+	text-decoration: none;	
+}
+
+.photographer{
+	fill: white;
+	height: 12px;
+	position: relative;
+	top: -1px;
+	vertical-align: middle;
+	width: auto;
+}
+
+.badge
+{
+	display: inline-block;
+	padding: 2px 3px;
+}
+
+
+.profile{
+	width: 95%;
+}
+
