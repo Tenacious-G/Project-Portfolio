@@ -6,148 +6,146 @@
 
 @media screen and (max-width:485px){
 	
-	.container{
-		display: flex;
-		flex-wrap: wrap;
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+	/*		HEADER		*/
+
+	.heading{
+		order: 1;
+		width: 100%;
 	}
 
-/*		HEADER		*/
+	.job{
+		text-align: right;
+		font-size: 0.6em;
+		width: 100%;
+	}
 
-.heading{
-	order: 1;
-	width: 100%;
-}
+	.logo{
+		order: 0;
+		width: 20%;
+	}
 
-.job{
-	text-align: right;
-	font-size: 0.6em;
-	width: 100%;
-}
+	.name{
+		text-align: right;
+		width: 100%;
+	}
 
-.logo{
-	order: 0;
-	width: 20%;
-}
-
-.name{
-	text-align: right;
-	width: 100%;
-}
-
-.titles{
-	width: 100%;
-}
+	.titles{
+		width: 100%;
+	}
 
 
-/*		PROJECTS	*/
+	/*		PROJECTS	*/
 
-.all-projects{
-	order: 3;
-	width: 100%;
-}
+	.all-projects{
+		order: 3;
+		width: 100%;
+	}
 
-/*		PROFILE		*/	
+	/*		PROFILE		*/	
 
-.introduction h3{
-	display: none;
-	text-align: center;
-}
+	.introduction h3{
+		display: none;
+		text-align: center;
+	}
 
-.introduction p{
-	margin: 0;
-}
+	.introduction p{
+		margin: 0;
+	}
 
-.long-intro{
-	display: none;
-}
+	.long-intro{
+		display: none;
+	}
 
-.profile{
-	order: 2;
-	width: 100%;
-}
-	
-.profile-pic{
-	display: none;
-	padding: 2%;
-	max-width : 80%;
-}
+	.profile{
+		order: 2;
+		width: 100%;
+	}
+		
+	.profile-pic{
+		display: none;
+		padding: 2%;
+		max-width : 80%;
+	}
 
-.letterhead{
-	display: none;
-	width: 100%;
-}
+	.letterhead{
+		display: none;
+		width: 100%;
+	}
 
-/*		COMBINED	*/
+	/*		COMBINED	*/
 
-.combined{
-	display: none;
-}
+	.combined{
+		display: none;
+	}
 
 
 } 
 
 /*********************************************************BREAKPOINT ( tablet) ********************************************/
 
-/* TODO: Display graphic for Pixel Art Maker project */
-
 /* first breakpoint at about 500px (mobile phone -> tablet) */
 
 @media screen and (min-width:486px) and (max-width:702px){
-	.combined{
+		.combined{
+			order: 2;
+			width: 50%;
+		}
+		
+	/*		HEADER		*/
+
+	.heading{
+		display: none;
+		height: 80px;
 		order: 2;
 		width: 50%;
 	}
-	
-/*		HEADER		*/
 
-.heading{
-	display: none;
-	height: 80px;
-	order: 2;
-	width: 50%;
-}
+	.job{
+		text-align: right;
+		font-size: 0.6em;
+		width: 100%;
+	}
 
-.job{
-	text-align: right;
-	font-size: 0.6em;
-	width: 100%;
-}
+	.name{
+		text-align: right;
+		font-size: 0.9em;
+		width: 100%;
+	}
 
-.name{
-	text-align: right;
-	font-size: 0.9em;
-	width: 100%;
-}
+	.titles{
+		width: 100%;
+	}
 
-.titles{
-	width: 100%;
-}
+	/*		PROJECTS	*/
 
-/*		PROJECTS	*/
+	.all-projects{
+		display: none;
+		order: 3;
+		width: 50%;
+	}
 
-.all-projects{
-	display: none;
-	order: 3;
-	width: 50%;
-}
+	.all-projects_combined h3{
+		color: #7d97ad; /*light-grey*/
+	}
 
-.all-projects_combined h3{
-	color: #7d97ad; /*light-grey*/
-}
+	.logo{
+		order: 0;
+		width: 30%;
+	}
 
-.logo{
-	order: 0;
-	width: 30%;
-}
+	/*		PROFILE		*/
 
-/*		PROFILE		*/
-
-.profile{
-	background-color: #02b3e4; /*udacity blue*/
-	margin: 2%;
-	order: 1;	
-	width:46%;
-}
+	.profile{
+		background-color: #02b3e4; /*udacity blue*/
+		margin: 2%;
+		order: 1;	
+		width:46%;
+	}
 
 }
 
@@ -155,134 +153,135 @@
 
 @media screen and (min-width: 702px){
 
-.container{
-	margin: 2% auto;
-	width: 96%;
-}
+	.container{
+		margin: 2% auto;
+		width: 96%;
+	}
 
-/* 		HEADER	 */
+	/* 		HEADER	 */
 
-.horiz-border{
-	    border-width: 5px;
-}
+	.horiz-border{
+			border-width: 5px;
+	}
 
-.job{
-	text-align: right;
-	font-size: 0.6em;
-	width: 100%;
-}
-
-
-.name{
-	text-align: right;
-	font-size: 0.9em;
-	width: 100%;
-}
-
-.titles{
-	width: 100%;
-}
-
-.logo{
-	order: 0;
-	width: 10%;
-}
-
-.heading{
-	order: 1;
-	width: 100%;
-}
-
-.titles{
-	display: inline;
-}
-
-/* 		PROJECTS	 */
-
-.all-projects{
-	display: flex;
-	justify-content: space-around;
-	order: 3;
-	width: 100%;
-}
-
-.all-projects h3{
-	color: #7d97ad; /*light-grey*/
-	display: block;
-	width: 100%;
-}
-
-.image-link_full{
-	display: block;
-	text-align: center;
-	width: 100%;
-}
-
-.image-link_short{
-	display: none;
-}
-	
-.project-icon{
-	order: 36;
-	width: 30%;
-}
-
-.project-name{
-	color: #2d3c49; /*dark-grey*/
-	display: block;
-	font-weight: 2000;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.project-shirts{
-	order: 36;
-	width: 30%;
-}
-
-.project-tiger{
-	order: 36;
-	width: 30%;
-}
-
-/* 		PROFILE	 */
-
-.fabric{
-	display: block;
-}
+	.job{
+		text-align: right;
+		font-size: 0.6em;
+		width: 100%;
+	}
 
 
-.introduction{
-	color: black;
-	font-size: 0.5em;
-	font-weight: 50;
-    text-align: center;
-}
-.profile{
-	background-color: #02b3e4; /*udacity blue*/
-	order: 2;
-	font-size: 1.5em;
-	width: 100%;	
-	position: relative;
-    text-align: center;
-}
+	.name{
+		text-align: right;
+		font-size: 0.9em;
+		width: 100%;
+	}
 
-.profile-pic{
-	display: none;
-	max-width: 80%;
-	order: 35;
-}
+	.titles{
+		width: 100%;
+	}
 
-/* 		COMBINED	 */
+	.logo{
+		order: 0;
+		width: 10%;
+	}
 
-.combined{
-	display: none;
-}
+	.heading{
+		order: 1;
+		width: 100%;
+	}
 
+	.titles{
+		display: inline;
+	}
 
+	/* 		PROJECTS	 */
 
+	.all-projects{
+		display: flex;
+		justify-content: space-around;
+		order: 3;
+		width: 100%;
+	}
 
+	.all-projects h3{
+		color: #7d97ad; /*light-grey*/
+		display: block;
+		width: 100%;
+	}
 
+	.image-link_full{
+		display: block;
+		text-align: center;
+		width: 100%;
+		
+		/* stop link text overlapping other links at certain viewport widths */
+		/* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+  
+	}
 
+	.image-link_short{
+		display: none;
+	}
+		
+	.project-icon{
+		order: 36;
+		width: 30%;
+	}
 
+	.project-name{
+		color: #2d3c49; /*dark-grey*/
+		display: block;
+		font-weight: 2000;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.project-shirts{
+		order: 36;
+		width: 30%;
+	}
+
+	.project-tiger{
+		order: 36;
+		width: 30%;
+	}
+
+	/* 		PROFILE	 */
+
+	.fabric{
+		display: block;
+	}
+
+	.introduction{
+		color: #f5f4f1; /*very light-grey, off-white*/
+		font-size: 0.5em;
+		font-weight: 50;
+		text-align: center;
+	}
+	.profile{
+		/* background-color: #02b3e4; /*udacity blue*/ 
+		background-image: url("../img/lights-on-blue-background.jpg");
+		background-size: cover;
+		color: #f5f4f1; /*very light-grey, off-white*/
+		font-size: 1.5em;
+		order: 2;
+		width: 100%;	
+		position: relative;
+		text-align: center;
+	}
+
+	.profile-pic{
+		display: none;
+		max-width: 80%;
+		order: 35;
+	}
+
+	/* 		COMBINED	 */
+
+	.combined{
+		display: none;
+	}
 }
